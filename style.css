@@ -92,7 +92,7 @@ body {
 .heading-s {
   font: 900 2.25rem/2.25rem 'Big Shoulders Display', sans-serif;
   text-transform: uppercase;
-  color: var(--black);
+  color: var(--white);
 }
 
 .body-m {
