@@ -58,12 +58,12 @@ body {
   line-height: 1.3;
   text-rendering: optimizeSpeed;
   font-family: 'Big Shoulders Display', sans sans-serif;
-  background-color: white;
+  background-color: #ffffff;
 }
 
 
 :root {
-  --brown: hsla(24, 56%, 63%, 1);
+  --brick: rgb(175, 17, 17);
   --black: hsla(0, 0%, 8%, 1);
   --gray: hsla(0, 0%, 27%, 1);
   --white: hsla(0, 0%, 100%, 1);
@@ -124,8 +124,8 @@ span {
   color: var(--white);
 }
 
-.brown {
-  color: var(--brown);
+.brick {
+  color: var(--brick);
 }
 
 .btn {
@@ -159,14 +159,14 @@ span {
 
 .btn:hover,
 .btn-2:hover {
-  background-color: var(--brown);
+  background-color: var(--brick);
   transition: all ease 0.3s;
 }
 
 .arrow-right,
 .arrow-left {
   padding: 1rem;
-  background-color: var(--brown);
+  background-color: var(--brick);
   transition: all ease 0.3s;
 }
 
@@ -182,7 +182,7 @@ span {
 }
 
 .btn-link:hover {
-  background-color: var(--brown);
+  background-color: var(--brick);
 }
 
 
@@ -202,7 +202,7 @@ span {
 }
 
 header {
-  background: linear-gradient(270deg, #FFFFFF 50%, hsla(0, 0%, 8%, 1) 50%);
+  background: linear-gradient(270deg, #FFFFFF 50%, hsla(0, 0%, 27%, 1) 50%);
 }
 
 
@@ -218,7 +218,7 @@ header {
   padding-block: 11.875rem 18.75rem;
   margin-bottom: 11.25rem;
   background-repeat: no-repeat;
-  background-image: url(./assets/desktop/image-hero.jpg);
+  background-image: url(./assets/desktop/blueprints.jpg);
   background-position: 50% 50%;
   justify-content: space-between;
 }
@@ -310,7 +310,7 @@ header {
 }
 
 footer {
-  background-color: var(--black);
+  background-color: var(--gray);
   padding-block: 3.5rem;
 }
 
@@ -330,7 +330,7 @@ footer {
 }
 
 .social svg:hover {
-  fill: var(--brown);
+  fill: var(--brick);
 }
 
 .social svg:hover {
@@ -346,7 +346,7 @@ footer {
 }
 
 .social svg:hover {
-  fill: var(--brown);
+  fill: var(--black);
 }
 
 .social-2 svg {
@@ -362,7 +362,7 @@ footer {
 }
 
 .location {
-  background-color: var(--brown);
+  background-color: var(--brick);
 }
 
 .bg {
@@ -399,7 +399,7 @@ footer {
 }
 
 .logo path:hover {
-  fill: var(--brown);
+  fill: var(--brick);
   transition: all ease 0.3s;
 }
 
@@ -429,7 +429,7 @@ footer {
   }
 
   header {
-    background: var(--white) url(./assets/tablet/image-hero.jpg) no-repeat;
+    background: var(--white) url(./assets/tablet/blueprints.jpg) no-repeat;
   }
 
   .hero-section {
@@ -615,7 +615,7 @@ footer {
   }
 
   .top-feature-left:hover {
-    filter: invert(100);
+    filter: invert(50);
     transition: all ease 0.5s;
   }
 }
